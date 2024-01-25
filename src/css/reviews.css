@@ -9,7 +9,7 @@
     padding: 80px 20px;
   }
   .reviewes__title {
-    color: #141414;
+    color: var(--black);
     font-family: 'Studio Pro';
     font-size: 48px;
     font-style: normal;
@@ -19,7 +19,7 @@
     text-transform: uppercase;
   }
   .green-text {
-    color: #576f35;
+    color: var(--green);
     font-family: 'Studio Pro';
     font-size: 48px;
     font-weight: 700;
