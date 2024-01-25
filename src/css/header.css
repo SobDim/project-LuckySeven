@@ -1,1 +1,45 @@
 /* Header styles */
+.header {
+    position: absolute;
+    top: 10px; left: 0;  right: 0;
+background-color: var(--green);
+}
+
+.mobile-menu-icon {
+    stroke: var(--white);
+}
+.logo-icon {
+    fill: var(--white);
+}
+.site-nav {
+    display: flex;
+    gap: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    .site-nav
+     {
+      display: none;
+    }
+  }
+
+.mobile-menu-btn {
+    stroke: var(--slate);
+    border: none;
+    background-color: transparent;
+    
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .mobile-menu-btn {
+      display: none;
+    }
+
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
