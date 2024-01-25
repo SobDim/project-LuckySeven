@@ -2,7 +2,7 @@
 .header {
     position: absolute;
     top: 10px; left: 0;  right: 0;
-background-color: var(--green);
+/* background-color: var(--green); */
 }
 
 .mobile-menu-icon {
