@@ -1,5 +1,4 @@
 /* Підключення стилів секцій */
-
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -19,29 +18,27 @@
 
 :root {
 
-/* Шрифт Source Pro Regular */
-@font-face {
-  font-family: 'Source Pro'; 
-  font-style: normal; 
-  font-weight: 400; 
-  font-display: swap; 
-  src: url(../fonts/studio-pro-regular.ttf) format('ttf');
-}
+/* Шрифт Studio Pro Regular */
+  @font-face {
+    font-family: 'Studio Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/studio-pro-regular.ttf) format('truetype');
+  }
 
-/* Шрифт Source Pro Bold */
-@font-face {
-  font-family: 'Source Pro';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(../fonts/studio-pro-bold.ttf) format('ttf');
-}
+  /* Шрифт Studio Pro Bold */
+  @font-face {
+    font-family: 'Studio Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/studio-pro-bold.ttf) format('truetype');
+  }
 
 /* Загальні стилі */
 
-
 body {
-  font-family: "Source Pro";
   font-style: normal;
   text-shadow: none;
 }
@@ -49,13 +46,14 @@ body {
 /* Контейнер */
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 @media screen and (min-width: 375px) {
   .container {
-    width: 375px;
+    min-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -63,7 +61,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    min-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -71,10 +69,25 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    min-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
   }
+}
+
+/* Приховані заголовки */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Секція  Потрібне уточнення*/
@@ -84,18 +97,27 @@ body {
   padding-bottom: 80px;
 }
 
+.how-it-works {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
 .footer {
   padding-top: 0;
   padding-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .how-it-works, .advertisement, .reviews {
+
+  .how-it-works,
+  .advertisement,
+  .reviews {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 
-  .hero, .header {
+  .hero,
+  .header {
     padding-top: 0px;
     padding-bottom: 0px;
   }
@@ -114,9 +136,9 @@ body {
 @media screen and (min-width: 1280px) {
 
   .how-it-works {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 }
 
 /* Стилі заголовок h2 */
@@ -124,27 +146,27 @@ body {
 h2 {
   font-size: 48px;
   font-weight: 700;
-  line-height: 50px; 
+  line-height: 1.04;
   /* 104.167% */
-  letter-spacing: -0.72px;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
   h2 {
-      font-size: 64px;
-      line-height: 70px; 
-      /* 109.375% */
-      letter-spacing: -0.96px;
+    font-size: 64px;
+    line-height: 1.09;
+    /* 109.375% */
+    letter-spacing: -0.015em;
   }
 }
 
 @media screen and (min-width: 1280px) {
   h2 {
-      font-size: 76px;
-      line-height: 80px; 
-      /* 105.263% */
-      letter-spacing: -1.14px;
+    font-size: 76px;
+    line-height: 1.05;
+    /* 105.263% */
+    letter-spacing: -0.015em;
   }
 }
 
@@ -153,39 +175,37 @@ h2 {
 h3 {
   font-size: 28px;
   font-weight: 700;
-  line-height: 28px; 
+  line-height: 1;
   /* 100% */
-  letter-spacing: -0.42px;
+  letter-spacing: -0.015em;
 }
 
 @media screen and (min-width: 768px) {
   h3 {
     font-size: 32px;
-    line-height: 32px;
-      /* 100% */
-    letter-spacing: -0.48px;
+    line-height: 1;
+    /* 100% */
+    letter-spacing: -0.015em;
   }
 }
 
 /* Стилі p */
 
 p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    /* 128.571% */
-    letter-spacing: -0.28px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  /* 128.571% */
+  letter-spacing: -0.02em;
 }
 
 @media screen and (min-width: 768px) {
   p {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     /* 125% */
-    letter-spacing: -0.32px;
+    letter-spacing: -0.02em;
   }
 }
 
 }
-
-
