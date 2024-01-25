@@ -39,6 +39,7 @@
 /* Загальні стилі */
 
 body {
+  font-family: 'Studio Pro', sans-serif;
   font-style: normal;
   text-shadow: none;
 }
@@ -48,20 +49,18 @@ body {
 .container {
   min-width: 320px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 20px;
 }
 
 @media screen and (min-width: 375px) {
   .container {
-    min-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 375px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -69,7 +68,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    min-width: 1280px;
+    width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
   }
