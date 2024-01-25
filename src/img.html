@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Main Footer -->
+
+    <!-- Main picture -->
+    <picture>
+      <!-- Desktop screen -->
+      <source
+        media="(min-width: 1158px)"
+        srcset="
+          ./img/@media/desctop/main/food-bag.jpg    1x,
+          ./img/@media/desctop/main/food-bag@2x.jpg 2x
+        "
+      />
+      <!-- Tablet screen -->
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/@media/tablet/main/food-bag.jpg    1x,
+          ./img/@media/tablet/main/food-bag@2x.jpg 2x
+        "
+      />
+      <!-- Mobile screen -->
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./img/@media/mobile/main/food-bag.jpg    1x,
+          ./img/@media/mobile/main/food-bag@2x.jpg 2x
+        "
+      />
+      <img
+        class="main-image"
+        src="./img/@media/mobile/main/food-bag.jpg"
+        alt="Food bag"
+        width="375"
+        height="370"
+      />
+    </picture>
+
+    <!-- Main -->
+
+    <picture>
+      <!-- Desktop screen -->
+      <source
+        media="(min-width: 1158px)"
+        srcset="
+          ./img/@media/desctop/main/women.jpg    1x,
+          ./img/@media/desctop/main/women@2x.jpg 2x
+        "
+      />
+      <!-- Tablet screen -->
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/@media/tablet/main/women.jpg    1x,
+          ./img/@media/tablet/main/women@2x.jpg 2x
+        "
+      />
+      <!-- Mobile screen -->
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./img/@media/mobile/main/women.jpg    1x,
+          ./img/@media/mobile/main/women@2x.jpg 2x
+        "
+      />
+      <img
+        class="main-image-women"
+        src="./img/@media/mobile/main/women.jpg"
+        alt="Food preparing"
+        width="335"
+        height="450"
+      />
+    </picture>
+
+    <!-- 
+      Main background CSS
+    CSS забрав з Slack не впевнений що буде працювати в при такому налаштуванні закинув лише посилання потребує доналаштування
+    Згідно з макету потребує лише @media only screen and (min-width: 1200px)
+    -->
+
+    <!-- .hero-wrapper {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+    url('./img/@media/desctop/main/food-bag.jpg');
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-wrapper {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+      url('./img/@media/desctop/main/food-bag.jpg');
+  }
+}
+@media only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .hero-wrapper {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+      url('./img/@media/desctop/main/food-bag2x.jpg');
+  }
+} -->
+
+    <!-- groceries -->
+    <img
+      class="products"
+      srcset="
+        ./img/groceries/eggplant.jpg    1x,
+        ./img/groceries/eggplant@2x.jpg 2x
+      "
+      src="./img/groceries/eggplant.jpg"
+      alt="eggplant"
+      width="282"
+      height="243"
+    />
+
+    <img
+      class="products"
+      srcset="./img/groceries/leek.jpg 1x, ./img/groceries/leek@2x.jpg 2x"
+      src="./img/groceries/leek.jpg"
+      alt="leek"
+      width="282"
+      height="243"
+    />
+
+    <img
+      class="products"
+      srcset="
+        ./img/groceries/mushrooms.jpg    1x,
+        ./img/groceries/mushrooms@2x.jpg 2x
+      "
+      src="./img/groceries/mushrooms.jpg"
+      alt="mushrooms"
+      width="282"
+      height="243"
+    />
+
+    <img
+      class="products"
+      srcset="./img/groceries/corn.jpg 1x, ./img/groceries/corn@2x.jpg 2x"
+      src="./img/groceries/corn.jpg"
+      alt="corn"
+      width="282"
+      height="243"
+    />
+
+    <img
+      class="products"
+      srcset="
+        ./img/groceries/potatoes.jpg    1x,
+        ./img/groceries/potatoes@2x.jpg 2x
+      "
+      src="./img/groceries/potatoes.jpg"
+      alt="sweet potatoes"
+      width="282"
+      height="243"
+    />
+
+    <img
+      class="products"
+      srcset="./img/groceries/carrot.jpg 1x, ./img/groceries/carrot@2x.jpg 2x"
+      src="./img/groceries/carrot.jpg"
+      alt="carrot"
+      width="282"
+      height="243"
+    />
+
+    <!-- costumers -->
+
+    <img
+      class="costumers"
+      srcset="
+        ./img/costumers/john_wax.jpg    1x,
+        ./img/costumers/john_wax@2x.jpg 2x
+      "
+      src="./img/costumers/john_wax.jpg"
+      alt="John Wax"
+      width="56"
+      height="56"
+    />
+
+    <img
+      class="costumers"
+      srcset="
+        ./img/costumers/victoria_romashenko.jpg    1x,
+        ./img/costumers/victoria_romashenko@2x.jpg 2x
+      "
+      src="./img/costumers/victoria_romashenko.jpg"
+      alt="Victoria Romashenko"
+      width="56"
+      height="56"
+    />
+
+    <img
+      class="costumers"
+      srcset="
+        ./img/costumers/ihor_trachuk.jpg    1x,
+        ./img/costumers/ihor_trachuk@2x.jpg 2x
+      "
+      src="./img/costumers/ihor_trachuk.jpg"
+      alt="Ihor Trachuk"
+      width="56"
+      height="56"
+    />
+
+    <!-- footer -->
+
+    <picture>
+      <!-- Desktop screen -->
+      <source
+        media="(min-width: 1158px)"
+        srcset="
+          ./img/@media/desctop/footer/rectangle.jpg    1x,
+          ./img/@media/desctop/footer/rectangle@2x.jpg 2x
+        "
+      />
+      <!-- Tablet screen -->
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/@media/tablet/footer/rectangle.jpg    1x,
+          ./img/@media/tablet/footer/rectangle@2x.jpg 2x
+        "
+      />
+      <!-- Mobile screen -->
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./img/@media/mobile/footer/rectangle.jpg    1x,
+          ./img/@media/mobile/footer/rectangle@2x.jpg 2x
+        "
+      />
+      <img
+        class="sec-port-l-i-img"
+        src="./img/@media/mobile/footer/rectangle.jpg"
+        alt="Follow us on our social networks"
+        width="295"
+        height="273"
+      />
+    </picture>
+  </body>
+</html>
