@@ -89,7 +89,6 @@
 
     .container-hero-main-text {
         height: 228px;
-        margin-bottom: 25px;
     }
 
     .first-text-in-page {
@@ -103,15 +102,16 @@
         text-transform: uppercase;
     }
 
-    .div-p-hero-section {
-        height: 60px;
-    }
-
     .text-p-hero-section {
         font-size: 16px;
         font-weight: 400;
         letter-spacing: -0.02;
-        padding-right: 133px;
+        margin-right: 133px;
+        margin-left: 32px;
+        margin-top:25px;
+       
+
+        width: 603px;
     }
 
     .picture-hero {
@@ -132,7 +132,7 @@
     }
 
     .main-image-women {
-        width: 100%
+        width: 100%;
     }
 }
 
