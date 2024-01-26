@@ -22,7 +22,7 @@
     line-height: 1;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    
+        
     display: flex;
     background-color: var(--green);
     border-radius: 12px;
@@ -37,7 +37,7 @@
 
 @media screen and (min-width:375px){
 
-    .discount-advirtisement {
+.discount-advirtisement {
     color: var(--black);
     font-size: 48px;
     font-weight: 700;
@@ -50,7 +50,7 @@
     margin-right: auto;
     }
 
-    .second-part-discount-advertisiment {
+.second-part-discount-advertisiment {
     color: var(--white);
     font-size: 48px;
     font-weight: 700;
@@ -71,28 +71,28 @@
 
 /* TABLET */
 @media screen and (min-width:768px) {
-    .section-advertisiment {
-        margin-top: 20px;
-        margin-bottom: 20px;
+.section-advertisiment {
+    margin-top: 20px;
+    margin-bottom: 20px;
     }
 
-    .discount-advirtisement {
-        font-size: 64px;
-        line-height: 1;
-        letter-spacing: -0.06em;
+.discount-advirtisement {
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.06em;
 
-       margin-left: auto;
-       margin-right: auto;
-        width: 704px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 704px;
     }
 
-    .second-part-discount-advertisiment {
-        display: flex;
-        font-size: 64px;
-        line-height: 1;
-        letter-spacing: -0.06em;
-        margin-left: -8px;
-        padding: 8px 16px;
+.second-part-discount-advertisiment {
+    display: flex;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.06em;
+    margin-left: -8px;
+    padding: 8px 16px;
     }
 
 
@@ -105,7 +105,7 @@
 /* DESKTOP  */
 
 @media screen and (min-width:1280px) {
-    .section-advertisiment{
+.section-advertisiment{
     margin-top: 20px;
     margin-bottom: 20px;
     }
