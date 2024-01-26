@@ -58,19 +58,13 @@ body {
     padding-bottom: 80px;
   }
   
-  .how-it-works {
-    padding-top: 40px;
-    padding-bottom: 80px;
-  }
-  
   .footer {
     padding-top: 0;
     padding-bottom: 0;
   }
   
   @media screen and (min-width: 768px) {
-  
-    .how-it-works,
+
     .advertisement,
     .reviews {
       padding-top: 100px;
