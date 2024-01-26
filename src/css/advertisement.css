@@ -1,40 +1,28 @@
 /* Advertisement styles */
-.container {
+.container-advertisement {
     min-width: 320px;
     padding: 0 20px;
 }
 
-
-.advertisiment-div {
-    display: flex;
-    width:100%;
-    padding-left: 10px;
-    padding-right: 10px;
-   
-    height: 300px;
-}
-
 .discount-advirtisement {
     color: var(--black);
-    font-family: "Studio Pro";
-    font-size: 40px;
-    font-style: normal;
+    font-size: 48px;
     font-weight: 700;
     line-height: 1;
     letter-spacing: -0.04em;
     text-transform: uppercase;
+
+    
 }
 
 .second-part-discount-advertisiment {
     color:var(--white);
-    font-family: "Studio Pro";
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    
+        
     display: flex;
     background-color: var(--green);
     border-radius: 12px;
@@ -48,32 +36,23 @@
 /* MOBILE */
 
 @media screen and (min-width:375px){
-.advertisiment-div {
-     display: flex;
-     max-width: 335px;
-     padding-left: 10px;
-     padding-right: 10px;
-     margin-left: auto;
-     margin-right: auto;
-     height: 300px;
-    }
 
-    .discount-advirtisement {
+.discount-advirtisement {
     color: var(--black);
-    font-family: "Studio Pro";
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1;
     letter-spacing: -0.04em;
     text-transform: uppercase;
+
+    width:335px;
+    margin-left: auto;
+    margin-right: auto;
     }
 
-    .second-part-discount-advertisiment {
+.second-part-discount-advertisiment {
     color: var(--white);
-    font-family: "Studio Pro";
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1;
     letter-spacing: -0.04em;
@@ -91,30 +70,34 @@
 /* END-MOBILE */
 
 /* TABLET */
-
 @media screen and (min-width:768px) {
-    .advertisiment-div {
-    display: flex;
-    max-width: 704px;
+.section-advertisiment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+.discount-advirtisement {
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.06em;
+
     margin-left: auto;
     margin-right: auto;
-    height: 280px;
-    padding:20px 16px;
+    width: 704px;
     }
 
-    .discount-advirtisement {
+.second-part-discount-advertisiment {
+    display: flex;
     font-size: 64px;
     line-height: 1;
     letter-spacing: -0.06em;
+    margin-left: -8px;
+    padding: 8px 16px;
     }
 
-    .second-part-discount-advertisiment {
-    font-size: 64px;
-    line-height: 1;
-    letter-spacing: -0.06em;
-    }
 
 }
+
 /* END-TABLET */
 
 
@@ -122,26 +105,25 @@
 /* DESKTOP  */
 
 @media screen and (min-width:1280px) {
-    .advertisiment-div {
-    display: flex;
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 240px;
-    padding: 20px 100px;
+.section-advertisiment{
+    margin-top: 20px;
+    margin-bottom: 20px;
     }
-
     .discount-advirtisement {
     font-size: 76px;
     line-height: 1;
     letter-spacing: -0.07em;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    width:1080px;
     }
 
     .second-part-discount-advertisiment {
+    display: block;
     font-size: 76px;
     line-height: 1;
     letter-spacing: -0.07em;
-        
     width: 842px;
     }
 
