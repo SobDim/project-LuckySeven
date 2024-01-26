@@ -1,9 +1,9 @@
 /* Hero styles */
+
 .container {
     min-width: 320px;
-    padding: 0 20px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0;
+    margin: auto;
 }
 
 .section-hero {
@@ -13,40 +13,30 @@
 }
 
 .container-hero-main-text {
-    width: 320px;
-    margin: auto;
+    margin-bottom: 20px;
 }
 
 .first-text-in-page {
     display: flex;
     color: var(--white);
-    font-family: 'Source Pro';
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-
-    margin-bottom: 20px;
 }
 
-
 .text-p-hero-section {
-    /* display: flex; */
     color: var(--white);
-    font-family: "Studio Pro";
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: -0.018em;
 
-    width:335px;
+    min-width: 280px;
     margin-left: auto;
+    padding-bottom: 40px;
     margin-right: auto;
-    margin-bottom: 40px;
-    
 }
 
 .picture-hero {
@@ -56,58 +46,52 @@
 
 .main-image {
     width: 100%;
+    padding: 0;
 }
 
-.container-advertisiment {
-    background-color: var(--wine);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.main-image-women {
-    width: 100%;
-}
 
 /* Mobile */
 
 @media screen and (min-width:375px) {
-    .container {
-        width: 375px;
-    }
+.container {
+    width: 375px;
+}
+
+.text-p-hero-section {
+    width: 335px;
+    padding-left: 0;
+    padding-right: 0;
+}
 }
 
 /* TABLET */
 
 @media screen and (min-width:768px) {
+    .container{
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
     .section-hero {
         background-color: var(--green);
-        padding-top: 100px;
+        padding-top: 143px;
         padding-bottom: 0;
     }
 
     .container-hero-main-text {
-        height: 228px;
+        width: 704px;
     }
 
     .first-text-in-page {
-        color: var(--white);
-        font-family: 'Source Pro';
         font-size: 76px;
-        font-style: normal;
-        font-weight: 700;
         line-height: 1;
         letter-spacing: -0.07em;
-        text-transform: uppercase;
     }
 
     .text-p-hero-section {
         font-size: 16px;
-        font-weight: 400;
-        letter-spacing: -0.02;
+        letter-spacing: -0.02em;
         margin-right: 133px;
-        margin-left: 32px;
         margin-top:25px;
        
 
@@ -115,23 +99,6 @@
     }
 
     .picture-hero {
-        width: 100%;
-    }
-
-    .container-advertisiment {
-        background-color: var(--wine);
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
-    .container-advertisiment {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .main-image-women {
         width: 100%;
     }
 }
