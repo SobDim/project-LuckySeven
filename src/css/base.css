@@ -162,3 +162,7 @@ body {
       letter-spacing: -0.02em;
     }
   }
+  html {
+    scroll-behavior: smooth;
+
+  }
