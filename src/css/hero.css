@@ -7,7 +7,7 @@
 }
 
 .section-hero {
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 0;
     background-color: var(--green);
 }
@@ -31,13 +31,9 @@
     margin-bottom: 20px;
 }
 
-.div-p-hero-section {
-    height: 90px;
-    margin-bottom: 40px;
-}
 
 .text-p-hero-section {
-    display: flex;
+    /* display: flex; */
     color: var(--white);
     font-family: "Studio Pro";
     font-size: 14px;
@@ -45,6 +41,12 @@
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: -0.018em;
+
+    width:335px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    
 }
 
 .picture-hero {
@@ -81,13 +83,12 @@
 @media screen and (min-width:768px) {
     .section-hero {
         background-color: var(--green);
-        padding-top: 80px;
+        padding-top: 100px;
         padding-bottom: 0;
     }
 
     .container-hero-main-text {
         height: 228px;
-        margin-bottom: 25px;
     }
 
     .first-text-in-page {
@@ -101,15 +102,16 @@
         text-transform: uppercase;
     }
 
-    .div-p-hero-section {
-        height: 60px;
-    }
-
     .text-p-hero-section {
         font-size: 16px;
         font-weight: 400;
         letter-spacing: -0.02;
-        padding-right: 133px;
+        margin-right: 133px;
+        margin-left: 32px;
+        margin-top:25px;
+       
+
+        width: 603px;
     }
 
     .picture-hero {
@@ -130,7 +132,7 @@
     }
 
     .main-image-women {
-        width: 100%
+        width: 100%;
     }
 }
 
