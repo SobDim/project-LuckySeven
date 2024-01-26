@@ -1,45 +1,89 @@
 /* Header styles */
 .header {
-    position: absolute;
-    top: 10px; left: 0;  right: 0;
-/* background-color: var(--green); */
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  /* background-color: var(--green); */
+}
+.logo-link {
+  height: 18px;
 }
 
 .mobile-menu-icon {
-    stroke: var(--white);
+  stroke: var(--white);
 }
 .logo-icon {
-    fill: var(--white);
+  fill: var(--white);
 }
 .site-nav {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 8px;
 }
 
 @media only screen and (max-width: 768px) {
-    .site-nav
-     {
-      display: none;
-    }
+  .site-nav {
+    display: none;
   }
+}
 
 .mobile-menu-btn {
-    stroke: var(--slate);
-    border: none;
-    background-color: transparent;
-    
-  }
-  
-  @media only screen and (min-width: 768px) {
-    .mobile-menu-btn {
-      display: none;
-    }
+  border: none;
+  background-color: transparent;
+}
 
+@media only screen and (min-width: 768px) {
+  .mobile-menu-btn {
+    display: none;
   }
+}
 
-  .header-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  }
+.site-nav-link {
+  display: block;
+  padding: 12px;
+}
+.list-item {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: var(--white);
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* color 250ms cubic-bezier(0.4, 0, 0.2, 1), */
+    /* font-weight 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+.list-item:hover {
+  background: #3b5417;
+  /* color: var(--wine); */
+  /* font-weight: 700; */
+}
+
+.list-item:last-child {
+  border-radius: 30px;
+  background: var(--wine);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  margin-left: 20px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.list-item:last-child:hover {
+  background-color: #751b33;  
+
+}
+
+
+.shop-link {
+  padding: 16px 32px;
+}
