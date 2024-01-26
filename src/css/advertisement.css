@@ -1,9 +1,11 @@
 /* Advertisement styles */
+
  .container-advertisement {
     max-width: 335px;
     margin: 0 auto;
     padding: 0 20px;
 } 
+
 
 .section-advertisiment {
     background-color: var(--white);
