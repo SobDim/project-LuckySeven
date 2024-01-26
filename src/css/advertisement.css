@@ -1,13 +1,10 @@
 /* Advertisement styles */
 
-
-@media screen and (min-width:320px){
-    
-.container {
+ .container-advertisement {
     min-width: 320px;
     margin: 0 auto;
     padding: 0 20px;
-}
+} 
 
 .section-advertisiment {
     background-color: var(--white);
@@ -37,11 +34,13 @@
     margin: 0 -10px;
   }
 
-}
-
 
 @media screen and (min-width: 375px) {
     
+}
+
+@media screen and (min-width: 768px) {
+
 }
 
 
