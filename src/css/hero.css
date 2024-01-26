@@ -1,10 +1,6 @@
 /* Hero styles */
 
-.container {
-    min-width: 320px;
-    padding: 0;
-    margin: auto;
-}
+
 
 .section-hero {
     padding-top: 100px;
@@ -53,9 +49,7 @@
 /* Mobile */
 
 @media screen and (min-width:375px) {
-.container {
-    width: 375px;
-}
+
 
 .text-p-hero-section {
     width: 335px;
@@ -67,11 +61,7 @@
 /* TABLET */
 
 @media screen and (min-width:768px) {
-    .container{
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+    
     .section-hero {
         background-color: var(--green);
         padding-top: 143px;
