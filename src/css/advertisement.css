@@ -1,41 +1,18 @@
 /* Advertisement styles */
-.container-advertisement {
+
+
+@media screen and (min-width:320px){
+    
+.container {
     min-width: 320px;
+    margin: 0 auto;
     padding: 0 20px;
 }
 
-.discount-advirtisement {
-    color: var(--black);
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 1;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-
-    
+.section-advertisiment {
+    background-color: var(--white);
+    padding: 80px 0;
 }
-
-.second-part-discount-advertisiment {
-    color:var(--white);
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 1;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-        
-    display: flex;
-    background-color: var(--green);
-    border-radius: 12px;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-/* MOBILE */
-
-@media screen and (min-width:375px){
 
 .discount-advirtisement {
     color: var(--black);
@@ -44,11 +21,7 @@
     line-height: 1;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-
-    width:335px;
-    margin-left: auto;
-    margin-right: auto;
-    }
+}
 
 .second-part-discount-advertisiment {
     color: var(--white);
@@ -56,76 +29,19 @@
     font-weight: 700;
     line-height: 1;
     letter-spacing: -0.04em;
-    text-transform: uppercase;
 
-    background-color: var(--green);
+    display: inline-flex;
     border-radius: 12px;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    }
-}
-
-/* END-MOBILE */
-
-/* TABLET */
-@media screen and (min-width:768px) {
-.section-advertisiment {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    }
-
-.discount-advirtisement {
-    font-size: 64px;
-    line-height: 1;
-    letter-spacing: -0.06em;
-
-    margin-left: auto;
-    margin-right: auto;
-    width: 704px;
-    }
-
-.second-part-discount-advertisiment {
-    display: flex;
-    font-size: 64px;
-    line-height: 1;
-    letter-spacing: -0.06em;
-    margin-left: -8px;
-    padding: 8px 16px;
-    }
-
+    background-color: var(--green);
+    padding: 0 10px;
+    margin: 0 -10px;
+  }
 
 }
 
-/* END-TABLET */
 
-
-
-/* DESKTOP  */
-
-@media screen and (min-width:1280px) {
-.section-advertisiment{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    }
-    .discount-advirtisement {
-    font-size: 76px;
-    line-height: 1;
-    letter-spacing: -0.07em;
-
-    margin-left: 100px;
-    margin-right: 100px;
-    width:1080px;
-    }
-
-    .second-part-discount-advertisiment {
-    display: block;
-    font-size: 76px;
-    line-height: 1;
-    letter-spacing: -0.07em;
-    width: 842px;
-    }
-
+@media screen and (min-width: 375px) {
+    
 }
+
 
