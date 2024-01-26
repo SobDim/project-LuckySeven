@@ -1,7 +1,7 @@
 /* Advertisement styles */
 
  .container-advertisement {
-    min-width: 320px;
+    max-width: 335px;
     margin: 0 auto;
     padding: 0 20px;
 } 
@@ -36,11 +36,46 @@
 
 
 @media screen and (min-width: 375px) {
-    
+.container-advertisement {
+    max-width: 335px;
+    }
 }
 
 @media screen and (min-width: 768px) {
+.container-advertisement {
+    max-width: 704px;
+    padding: 0 16px;
 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+.discount-advirtisement {
+    font-size: 64px;
+    letter-spacing: -0.06em;
+}
+
+.second-part-discount-advertisiment {
+    font-size: 64px;
+    letter-spacing: -0.06em;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+.container-advertisement {
+    max-width: 1080px;
+}
+
+.discount-advirtisement {
+    font-size: 76px;
+    letter-spacing: -0.07em;
+}
+
+.second-part-discount-advertisiment {
+    font-size: 76px;
+    letter-spacing: -0.07em;
+}
 }
 
 
