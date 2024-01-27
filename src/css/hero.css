@@ -1,15 +1,19 @@
 /* Hero styles */
 
+
 .section-hero {
     padding-top: 100px;
     padding-bottom: 0;
     background-color: var(--green);
 
 
+
+
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
+
 
 .container-hero {
     max-width: 375px;
@@ -18,9 +22,11 @@
     margin-right: auto;
 }
 
+
 .container-hero-main-text {
     margin-bottom: 20px;
 }
+
 
 .first-text-in-page {
     color: var(--white);
@@ -31,6 +37,7 @@
     text-transform: uppercase;
 }
 
+
 .text-p-hero-section {
     color: var(--white);
     font-size: 14px;
@@ -39,9 +46,12 @@
     letter-spacing: -0.014em;
 
 
+
+
     max-width: 375px;
     padding-bottom: 40px;
 }
+
 
 .picture-hero {
     margin-left: auto;
@@ -49,31 +59,55 @@
     max-width: 100%;
 }
 
+
 .main-image {
     width: 100%;
     padding: 0;
 }
 
+
 /* MOBILE */
+
 
 @media screen and (min-width:375px) {
 
 
-    .container-hero-main-text {
-        width: 335px;
+    .container-hero {
+        max-width: 375px;
     }
+
+
+    .container-hero-main-text {
+        width: 375px;
+    }
+
+
+    .text-p-hero-section {
+        max-width: 335px;
+
+
+    }
+
+
 }
+
+
 
 
 /* END-MOBILE-SECTION */
 
 
+
+
 /* TABLET */
+
 
 @media screen and (min-width:768px) {
     .section-hero {
         padding-top: 143px;
     }
+
+
 
 
     .container-hero {
@@ -82,24 +116,29 @@
     }
 
 
+
+
     .container-hero-main-text {
         width: 704px;
     }
 
 
+
+
     .first-text-in-page {
         font-size: 76px;
-        letter-spacing: -0.07em;
+        letter-spacing: -0.015em;
     }
+
 
     .text-p-hero-section {
         font-size: 16px;
         letter-spacing: -0.02em;
-        margin-right: 133px;
-        margin-top: 25px;
 
         max-width: 603px;
     }
+
+
 
 
     .picture-hero {
@@ -108,49 +147,53 @@
 }
 
 
+
+
 /* END-TABLET-SECTION */
 
+
 /* DESKTOP */
+
 
 @media screen and (min-width:1280px) {
     .section-hero {
         padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
         flex-direction: row;
         justify-content: center;
     }
 
+
     .container-hero {
-        max-width: 630px;
         padding-top: 230px;
-        padding-bottom: 50px;
+        margin: 0;
         padding-right: 28px;
+        padding-left: 100px;
     }
+
 
     .container-hero-main-text {
-        font-size: 76px;
-        letter-spacing: -0.015em;
-        width: 530px;
+        width: 502px;
         margin-bottom: 136px;
+        max-width: 630px;
     }
+
 
     .text-p-hero-section {
-        font-size: 16px;
-        letter-spacing: -0.02em;
-        line-height: 1.2;
-        max-width: 472px;
         margin: 0;
-        padding-bottom: 50px;
+        max-width: 472px;
     }
 
+
     .picture-hero {
-        max-width: 630px;
         display: flex;
-        justify-content: center;
         align-items: center;
-        padding: 0;
+        justify-content: center;
         margin: 0;
-        
+        padding: 0;
     }
+
 
     .main-image {
         display: block;
@@ -158,6 +201,8 @@
         height: auto;
     }
 }
+
+
 
 
 /* END-DESKTOP */
