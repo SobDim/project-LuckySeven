@@ -4,7 +4,7 @@
 
 }
 
-@media screen and screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .vegetables-content {
         display: flex;
         justify-content: space-between;
@@ -113,7 +113,19 @@
     justify-content: center;
     padding: 16px 41px;
     color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.29em;
+    letter-spacing: -0.21px;
+    text-transform: uppercase;
+
     margin: 0 auto;
+}
+
+.vegetables-btn:hover,
+.vegetables-btn:focus {
+    color: var(--wine);
+    background-color: var(--white);
 }
 
 @media screen and (min-width: 768px) {
