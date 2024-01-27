@@ -10,7 +10,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
   />
     
-    <link rel="stylesheet" href="/project-LuckySeven/assets/index-293524a9.css">
+    <link rel="stylesheet" href="/project-LuckySeven/assets/index-3e6231f0.css">
   </head>
   <body>
     <!--===========  HEADER ===========-->
@@ -321,20 +321,22 @@
                 <form >
                         <input class="input-name"
                         type="text"
-                        id="user-name"
                         name="user-name"
                         placeholder="Full Name"
-                        required>
+                        pattern="[A-Za-z ']{3,}"
+                        title="Enter your name"
+                        required/>
                         
 
                         <input class="input-email"
                         type="email"
-                        id="user-email"
                         name="user-email"
                         placeholder="Email"
-                        required>
+                        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}"
+                        type="submit"
+                        required/>
             
-                        <textarea class=" textarea-form" name="user-comment" id="user-comment" cols="10" rows="3" placeholder="Comment"></textarea>
+                        <textarea class=" textarea-form" name="user-comment" cols="10" rows="3" placeholder="Comment"></textarea>
             
                     <button type="submit" class="send-button">Send</button>
                 </form>
@@ -353,11 +355,11 @@
                 <ul class="socials-list">
                    <li class="socials-item"><a href="https://www.instagram.com/goitclub/" target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Link to Instagram"> <svg class="soc-icon" width="113" height="26"><use href="../partials/images/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li><span class="soc-slash">/</span>
+                    aria-label="Link to Instagram"> <svg class="soc-icon" width="113" height="26"><use href="/project-LuckySeven/assets/symbol-defs-8068c9de.svg#icon-instagram"></use></svg></a></li>
                    <li class="socials-item"><a href="https://www.facebook.com/goITclub/" target="_blank"  rel="noopener noreferrer"
-                    aria-label="Link to Facebook"><svg class="soc-icon" width="107" height="26"><use href="../partials/images/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li><span class="soc-slash"> /</span>
+                    aria-label="Link to Facebook"><svg class="soc-icon" width="107" height="26"><use href="/project-LuckySeven/assets/symbol-defs-8068c9de.svg#icon-facebook"></use></svg></a></li>
                    <li class="socials-item"><a href="https://www.youtube.com/c/GoIT" target="_blank"  rel="noopener noreferrer"
-                    aria-label="Link to Youtube"><svg class="soc-icon" width="93" height="26"><use href="../partials/images/icons/symbol-defs.svg#icon-youtube"></use></svg></a></li>
+                    aria-label="Link to Youtube"><svg class="soc-icon" width="93" height="26"><use href="/project-LuckySeven/assets/symbol-defs-8068c9de.svg#icon-youtube"></use></svg></a></li>
                 </ul>
                 
                 </div>
