@@ -9,8 +9,8 @@
 .title-your-order {
 color: #FBFBFB;
 margin-bottom: 20px;
-
 }
+
 .title-accent {
     color: rgba(251, 251, 251, 0.30);
 }
@@ -30,7 +30,6 @@ margin-bottom: 20px;
 }
 .form-text {
  color: #141414;
-font-family: "Studio Pro";
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -52,7 +51,6 @@ margin-bottom: 40px;
 margin-bottom: 15px;
 border-radius: 30px;
 border: 1px solid rgba(20, 20, 20, 0.20);
-color: var(--black);
 background-color: transparent ;
 
 width: 100%;
@@ -60,22 +58,36 @@ height: 46px;
 padding-left: 16px;
 }
 
+input:not(:placeholder-shown):invalid {
+    border: 2px solid #ad0d0d;
+}
+
+input:not(:placeholder-shown):valid {
+    border: 2px solid var(--green);
+}
+
 .textarea-form {
 border-radius: 15px;
 border: 1px solid rgba(20, 20, 20, 0.20);
-color: var(--black);
 background-color: transparent;
 
 width: 100%;
 height: 91px;
 padding: 14px 0 0 16px;
-margin-bottom: 40px;
+margin-bottom: 20px;
+resize: none;
 }
+
+::placeholder {
+color: var(--black);
+ }
+  
 
 .send-button {
 min-width: 100%;
 min-height: 50px;
 padding: 16px 128px;
+
 
 border-radius: 30px;
 background: var(--green);
@@ -121,6 +133,16 @@ gap: 8px;
 flex-wrap: wrap;
 }
 
+.socials-item:not(:last-child)::after {
+content: "\002F";
+color: #FBFBFB;
+font-size: 24px;
+font-weight: 700;
+line-height: 1.08;
+letter-spacing: -0.15em;
+
+}
+
 .soc-icon {
 fill: #FBFBFB;
 font-size: 24px;
@@ -150,9 +172,8 @@ margin-right: 96px;
 
  .order-form {
 width: 628px;
-height: 534px;
 padding: 50px 100px;
-margin: 50px auto 20px auto;
+margin: 50px 0 25px 0;
 }
    
  .socials-wrapper {
@@ -170,7 +191,6 @@ line-height: 1;
 
 .order-img {
 width: 528px;
-height: 273px;
 }
 
  @media screen and (min-width: 1280px) {
@@ -179,6 +199,14 @@ display: flex;
 gap: 25px;
 }
 
+.textarea-form {
+margin-bottom: 25px;
+}
+
+.oder-img {
+width: 427px;
+
+}
 .socials-wrapper, .order-form {
     width: 527px;
     height: 534px;
