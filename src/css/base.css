@@ -102,7 +102,6 @@ body {
     font-size: 48px;
     font-weight: 700;
     line-height: 1.04;
-    /* 104.167% */
     letter-spacing: -0.015em;
     text-transform: uppercase;
   }
@@ -111,17 +110,12 @@ body {
     h2 {
       font-size: 64px;
       line-height: 1.09;
-      /* 109.375% */
-      letter-spacing: -0.015em;
     }
   }
   
   @media screen and (min-width: 1280px) {
     h2 {
-      font-size: 76px;
       line-height: 1.05;
-      /* 105.263% */
-      letter-spacing: -0.015em;
     }
   }
   
@@ -131,16 +125,13 @@ body {
     font-size: 28px;
     font-weight: 700;
     line-height: 1;
-    /* 100% */
     letter-spacing: -0.015em;
   }
   
   @media screen and (min-width: 768px) {
     h3 {
       font-size: 32px;
-      line-height: 1;
-      /* 100% */
-      letter-spacing: -0.015em;
+
     }
   }
   
@@ -150,7 +141,6 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28;
-    /* 128.571% */
     letter-spacing: -0.02em;
   }
   
@@ -158,8 +148,6 @@ body {
     p {
       font-size: 16px;
       line-height: 1.25;
-      /* 125% */
-      letter-spacing: -0.02em;
     }
   }
   html {
