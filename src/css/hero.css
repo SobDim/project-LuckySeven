@@ -6,9 +6,6 @@
     padding-bottom: 0;
     background-color: var(--green);
 
-
-
-
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -71,14 +68,8 @@
 
 @media screen and (min-width:375px) {
 
-
-    .container-hero {
-        max-width: 375px;
-    }
-
-
     .container-hero-main-text {
-        width: 375px;
+        width: 335px;
     }
 
 
