@@ -16,11 +16,6 @@
 
 }
 
-@media only screen and (min-width: 768px) {
-  .menu-container {
-    
-  }
-}
 
 @media only screen and (min-width: 768px) and (max-width: 1158px) {
   .menu-container {
@@ -33,7 +28,7 @@
 .menu-container.is-open {
   transform: translateX(0);
   transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+
 }
 
 .mob-close {
@@ -51,7 +46,7 @@
   border: 1px solid var(--navy-blue-modal);
   cursor: pointer;
 
-} 
+}
 
 @media only screen and (min-width: 768px) {
   .mob-close {
@@ -65,6 +60,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .mobile-nav-item {
@@ -82,19 +78,45 @@
 }
 
 .mobile-nav-item:last-child {
-  margin-top: calc(100% - 3 * 8px);
-   height: 50px;
-  width: 100%;
-   max-width: 165px;
-  min-width: 165px; 
   background-color: var(--white);
+  display: flex;
+  margin-top: 340px;
+  /* width: 160px;
+  min-width: 160px;
+  height: 50px;
   border-radius: 30px;
+
+
+
+
+  border: 1px solid #FBFBFB33;
+  
+  align-items: center;
+  justify-content: center;
+  padding: 16px 41px;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.29em;
+  text-transform: uppercase;
+  transition: color 1000ms ease, background-color 1000ms ease; */
 }
 
-.mobile-nav-item:hover {
+
+.shop-mobile-link {}
+
+
+
+.mobile-nav-item:not(:last-child):hover {
   background-color: var(--white);
   color: var(--wine);
 }
+
+.mobile-nav-item:last-child:hover {
+  background-color: var(--white);
+  color: var(--wine);
+}
+
 
 @media only screen and (min-width: 768px) {
   .mobile-nav-item:last-child {
@@ -104,9 +126,8 @@
 
 .mobile-nav-link {
   cursor: pointer;
-  font-size: 14px;
   line-height: 1.28;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
   text-transform: capitalize;
   text-align: center;
   padding: 12px 16px;
@@ -120,6 +141,7 @@
   font-weight: 700;
   letter-spacing: -0.015em;
   text-transform: uppercase;
+  border-radius: 30px;
 }
 
 
