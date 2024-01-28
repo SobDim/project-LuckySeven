@@ -2,27 +2,27 @@
 /* Your-order styles */
 
 .section-your-order {
-    background-color: var(--wine);
+background-color: var(--wine);
 }
 
 
 .title-your-order {
 color: #FBFBFB;
 margin-bottom: 20px;
-
 }
+
 .title-accent {
     color: rgba(251, 251, 251, 0.30);
 }
 .your-order-text {
-    color: #FBFBFB;
-    margin-bottom: 40px;
+ color: #FBFBFB;
+ margin-bottom: 40px;
 }
+
 .order-form {
 border-radius: 30px;
 background: #FBFBFB;
 
-width: 335px;
 height: 533px;
 padding: 40px 20px 0 20px;
 margin-bottom: 20px;
@@ -30,7 +30,6 @@ margin-bottom: 20px;
 }
 .form-text {
  color: #141414;
-font-family: "Studio Pro";
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -39,17 +38,19 @@ letter-spacing: -0.36px;
 text-transform: uppercase;
 margin-bottom: 40px;
 }
+
 .form-accent {
-    color: var(--wine);
+color: var(--wine);
 }
+
 .the-form-span {
-    color: var(--green);
+color: var(--green);
 }
+
 .input-name, .input-email {
 margin-bottom: 15px;
 border-radius: 30px;
 border: 1px solid rgba(20, 20, 20, 0.20);
-color: #141414;
 background-color: transparent ;
 
 width: 100%;
@@ -57,21 +58,34 @@ height: 46px;
 padding-left: 16px;
 }
 
+input:not(:placeholder-shown):invalid {
+    border: 2px solid #ad0d0d;
+}
+
+input:not(:placeholder-shown):valid {
+    border: 2px solid var(--green);
+}
+
 .textarea-form {
 border-radius: 15px;
 border: 1px solid rgba(20, 20, 20, 0.20);
-color: #141414;
 background-color: transparent;
 
 width: 100%;
 height: 91px;
 padding: 14px 0 0 16px;
-margin-bottom: 40px;
+margin-bottom: 20px;
+resize: none;
 }
+
+::placeholder {
+color: var(--black);
+}
+  
+
 .send-button {
 min-width: 100%;
 min-height: 50px;
-padding: 16px 128px;
 
 border-radius: 30px;
 background: var(--green);
@@ -84,17 +98,17 @@ line-height: 1.29em;
 letter-spacing: -0.21px;
 text-transform: uppercase;
 cursor: pointer;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .send-button:hover, .send-button:focus {
-background-color: #2b5839;
+background-color: #3b5417;;
 }
+
 .socials-wrapper {
  border-radius: 30px;
 background: var(--green);
 
-width: 335px;
 height: 465px;
 padding: 40px 20px;
 }
@@ -102,69 +116,143 @@ padding: 40px 20px;
 .order-img {
 margin-bottom: 20px;
 border-radius: 15px;
-background: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%), url(<path-to-image>), lightgray -36.221px -42.887px / 167.158% 122.975% no-repeat;
+background: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%), lightgray -36.221px -42.887px / 167.158% 122.975% no-repeat;
 }
 
+.socials-list {
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+}
 .socials-text {
 color: rgba(251, 251, 251, 0.50);
 margin-bottom: 14px;
 }
 
-.socials-list {
+.socials-item {
 display: flex;
 gap: 8px;
-flex-wrap: wrap;
 }
 
-.soc-icon {
-fill: #FBFBFB;
-font-size: 24px;
-font-weight: 700;
-line-height: 1.08;
-letter-spacing: -0.015em
+.soc-link {
+display: flex;
 }
 
-.soc-slash {
+
+.socials-item:not(:last-child)::after {
+content: "\002F";
 color: #FBFBFB;
 font-size: 24px;
-font-style: normal;
- font-weight: 700;
+font-weight: 700;
 line-height: 1.08;
 letter-spacing: -0.15em;
 }
 
+.soc-icon {
+fill: #FBFBFB;
+height: 26px;
+transition-duration: 400ms;
+transition-timing-function: linear;
+}
+
+.soc-icon:hover,
+.soc-icon :focus {
+fill: rgba(241, 118, 118, 0.883);
+}
+
 @media screen and (min-width: 768px) {
- .order-form {
+
+.title-your-order, .your-order-text {
+width: 640px;
+}
+
+.title-your-order {
+margin-bottom: 25px;
+}
+
+.your-order-text {
+margin-bottom: 50px;
+}
+
+.form-text {
+margin-bottom: 50px;
+}
+
+.order-form {
 width: 628px;
 height: 534px;
 padding: 50px 100px;
+margin: 50px auto 25px auto;
+}
+
+.textarea-form {
+margin-bottom: 25px;
 }
    
- .socials-wrapper {
- width: 628px;
+.socials-wrapper {
+width: 628px;
 height: 490px;
 padding: 50px;
+margin: 0 auto;
+}
+
+.socials-text {
+margin-bottom: 15px;
+}
+
+.socials-list {
+gap: 12px;
+
+}
+
+.socials-item {
+gap: 12px;
+align-items: center;
 }
 
 .soc-icon {
- font-size: 32px;
-line-height: 1;
+height: 32px;
+width: auto;
 }
 
-/* .order-img {
-width: 528px;
-height: 273px; */
 
+.order-img {
+width: 528px;
+margin-bottom: 50px;
+}
 }
 
  @media screen and (min-width: 1280px) {
+
+.title-your-order {
+font-size: 64px;
+line-height: 1;
+width: 751px;
+}
+
+.your-order-text {
+width: 742px;
+}
+
+.order-form {
+padding: 50px;
+}
+
 .form-wrapper {
 display: flex;
 gap: 25px;
 }
 
+
+.socials-wrapper {
+height: 534px;
+}
+
+.order-img {
+width: 427px;
+}
+
 .socials-wrapper, .order-form {
-    width: 527px;
-    height: 534px;
-       }
+margin: 0;
+ }
     }
