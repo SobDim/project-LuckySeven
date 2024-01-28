@@ -121,6 +121,10 @@
     margin: 0 auto;
 }
 
+.vegetables-button {
+    display: flex;
+}
+
 .vegetables-btn {
     min-width: 160px;
     border: 1px solid #FBFBFB33;
