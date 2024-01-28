@@ -1,149 +1,97 @@
-/* #region Reviews */
-/* .container {
-  width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-} */
-@media only screen and (max-width: 767px) {
-  .hidden-tel {
-    display: none;
-  }
+.reviews {
+  background-color: var(--white);
 }
-
-.reviewes-section {
-  padding: 80px 20px;
-  align-items: center;
+.reviewes-container-title {
+  margin-bottom: 40px;
 }
-
-@media only screen and (min-width: 768px) {
-  .reviewes-section {
-    padding: 80px 32px;
-  }
-}
-.reviewes__title {
-  color: var(--black);
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.04;
-  letter-spacing: -0.015em;
-  text-transform: uppercase;
-}
-
-@media only screen and (min-width: 768px) {
-  .reviewes__title {
-    width: 553px;
-  }
-}
-.green-text {
-  color: var(--green);
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.04;
-  letter-spacing: -0.015em;
-  text-transform: uppercase;
-}
-
-@media only screen and (min-width: 768px) {
-  .green-text {
-    font-size: 64px;
-  }
-}
-.reviewes__text {
-  color: #141414;
-  line-height: 1.28;
-  letter-spacing: -0.28px;
-  margin-top: 20px;
-}
-
-@media only screen and (min-width: 768px) {
-  .reviewes__text {
+@media screen and (min-width: 768px) {
+  .reviewes-container-title {
+    margin-bottom: 50px;
+    margin-right: 0;
     width: 547px;
   }
 }
-
-.reviewes {
+.reviewes-title {
+  color: #141414;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .reviewes-title {
+    margin-bottom: 25px;
+  }
+}
+.green-text {
+  color: #576f35;
+}
+.reviewes-desc {
+  color: #141414;
+}
+.reviewes-menu {
   display: flex;
-  gap: 18px;
+  justify-content: center;
 }
-
-@media only screen and (min-width: 768px) {
-  .reviewes {
-    width: 704px;
+@media screen and (min-width: 768px) {
+  .reviewes-menu {
+    gap: 18px;
   }
 }
-.reviewes__card_text {
-  margin-top: 24px;
-}
-
-@media only screen and (min-width: 768px) {
-  .reviewes__card_text {
-    margin: 0;
+@media screen and (min-width: 1280px) {
+  .reviewes-menu {
+    gap: 25px;
   }
 }
-.reviewes__name {
-  color: #040306;
+.reviewes-item {
+  width: 335px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  padding: 20px 16px;
+  border-radius: 24px;
+  border: 1px solid #7a31454d;
+}
+.reviewes-item:nth-last-child(-n + 2) {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .reviewes-item:nth-child(-n + 2) {
+    display: flex;
+  }
+  .reviewes-item {
+    width: 343px;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .reviewes-item:nth-last-child(-n + 2) {
+    display: flex;
+  }
+}
+.reviewes-costumers {
+  margin-bottom: 24px;
+}
+.reviewes-card-text {
+  padding: 0 6px;
+}
+.reviewes-name {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  margin: 0;
-}
-
-@media only screen and (min-width: 768px) {
-  .reviewes__name {
-    font-size: 18px !important;
-    line-height: 110%;
-  }
-}
-.reviewes__text_descripiton {
-  color: rgba(4, 3, 6, 0.4);
   text-align: center;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  margin-top: 8px;
-  margin: 0;
 }
-
-.reviewes_card {
-  display: flex;
-  height: 238px;
-  padding: 20px 16px;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-
-  border-radius: 24px;
-  border: 1px solid rgba(122, 49, 69, 0.3);
-  background: #fbfbfb;
-
-  margin-top: 40px;
-  width: 335px;
+@media screen and (min-width: 768px) {
+  .reviewes-name {
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
 }
-
-/* @media only screen and (min-width: 375px) {
-  .reviewes_card:last-child {
-    display: none;
-  }
-} */
-
-/* .reviewes_card:not(:first-child) {
-  display: none;
-} */
-
-/* @media only screen and (min-width: 768px) {
-  .reviewes_card {
-    width: 343px;
-    padding: 20px;
-    justify-content: center;
-  }
-  .reviewes_card:last-child {
-    display: none;
-  }
-} */
-@media only screen and (min-width: 1280px) {
+.reviewes-name {
+  color: #141414;
+  margin-bottom: 8px;
 }
-
-/* #endregion Reviews */
+.reviewes-text-descripiton {
+  color: #04030666;
+}
