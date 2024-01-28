@@ -1,6 +1,5 @@
 /* Hero styles */
 
-
 .section-hero {
     padding-top: 100px;
     padding-bottom: 0;
@@ -11,19 +10,16 @@
     margin: 0 auto;
 }
 
-
 .container-hero {
-    max-width: 375px;
+    max-width: 100%;
     padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-
 .container-hero-main-text {
     margin-bottom: 20px;
 }
-
 
 .first-text-in-page {
     color: var(--white);
@@ -42,13 +38,9 @@
     line-height: 1.28;
     letter-spacing: -0.014em;
 
-
-
-
     max-width: 375px;
     padding-bottom: 40px;
 }
-
 
 .picture-hero {
     margin-left: auto;
@@ -56,71 +48,45 @@
     max-width: 100%;
 }
 
-
 .main-image {
     width: 100%;
     padding: 0;
 }
 
-
 /* MOBILE */
 
-
 @media screen and (min-width:375px) {
-
     .container-hero-main-text {
         width: 335px;
     }
 
-
     .text-p-hero-section {
         max-width: 335px;
-
-
     }
-
-
 }
-
-
-
 
 /* END-MOBILE-SECTION */
 
 
-
-
 /* TABLET */
-
 
 @media screen and (min-width:768px) {
     .section-hero {
         padding-top: 143px;
     }
 
-
-
-
     .container-hero {
-        max-width: 768px;
         padding: 0 32px;
     }
-
-
-
 
     .container-hero-main-text {
         width: 704px;
     }
 
-
-
-
     .first-text-in-page {
         font-size: 76px;
         letter-spacing: -0.015em;
     }
-
 
     .text-p-hero-section {
         font-size: 16px;
@@ -129,22 +95,15 @@
         max-width: 603px;
     }
 
-
-
-
     .picture-hero {
         max-width: 100%;
     }
 }
 
-
-
-
 /* END-TABLET-SECTION */
 
 
 /* DESKTOP */
-
 
 @media screen and (min-width:1280px) {
     .section-hero {
@@ -155,7 +114,6 @@
         justify-content: center;
     }
 
-
     .container-hero {
         padding-top: 230px;
         margin: 0;
@@ -163,19 +121,16 @@
         padding-left: 100px;
     }
 
-
     .container-hero-main-text {
         width: 502px;
         margin-bottom: 136px;
         max-width: 630px;
     }
 
-
     .text-p-hero-section {
         margin: 0;
         max-width: 472px;
     }
-
 
     .picture-hero {
         display: flex;
@@ -185,15 +140,11 @@
         padding: 0;
     }
 
-
     .main-image {
         display: block;
         width: 100%;
         height: auto;
     }
 }
-
-
-
 
 /* END-DESKTOP */
