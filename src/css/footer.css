@@ -1,6 +1,6 @@
 /* Footer  styles */
 .footer {
-  background-color: #7a3145;
+  background-color: var(--wine);
 }
 
 @media screen and (min-width: 768px) {
