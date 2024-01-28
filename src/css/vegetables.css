@@ -37,7 +37,9 @@
 
 .accent-color-title {
     color: #FBFBFB4D;
+    letter-spacing: -0.02em;
 }
+
 
 .vegetables-subtitle {
     color: var(--white);
