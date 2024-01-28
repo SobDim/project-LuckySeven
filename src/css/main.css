@@ -7,7 +7,8 @@
 @import url('./how-it-works.css');
 @import url('./advertisement.css');
 @import url('./vegetables.css');
-@import url('./reviews.css');
+/* @import url('./reviews.css'); */
+@import url('./reviews-v2.css');
 @import url('./your-order.css');
 @import url('./footer.css');
 
@@ -24,7 +25,7 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url(../fonts/studio-pro-bold.ttf) format('truetype');
+    src: url('../fonts/studio-pro-bold.ttf') format('truetype');
   } 
 
  @font-face {
@@ -32,6 +33,6 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(../fonts/studio-pro-regular.ttf) format('truetype');
+    src: url('../fonts/studio-pro-regular.ttf') format('truetype');
   
  }
