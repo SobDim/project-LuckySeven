@@ -1,13 +1,23 @@
 /* Header styles */
 .header {
+  position: relative;
+}
+.header .container {
   position: absolute;
   top: 10px;
   left: 0;
   right: 0;
   /* background-color: var(--green); */
+  
+}
+
+@media only screen and (min-width: 768px) {
+  .header .container  {
+    top: 32px;
+  }
 }
 .logo-link {
-  height: 18px;
+  height: 16px;
 }
 
 .mobile-menu-icon {
@@ -16,12 +26,19 @@
 .logo-icon {
   fill: var(--white);
 }
+
+@media only screen and (min-width: 768px) {
+  .logo-icon {
+    height: 18px;
+  }
+}
+
 .site-nav {
   display: flex;
   gap: 8px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1279px) {
   .site-nav {
     display: none;
   }
@@ -32,12 +49,21 @@
   background-color: transparent;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1279px) {
   .mobile-menu-btn {
     display: none;
   }
 }
 
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu-icon {
+    width: 40px;
+    height: 40px;
+    
+  }
+
+}
 .header-nav {
   display: flex;
   justify-content: space-between;
