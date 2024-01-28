@@ -65,6 +65,12 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .footer-nav-list {
+    margin-bottom: 125px;
+  }
+}
+
 .footer-list-item {
   color: #fbfbfb;
   font-size: 28px;
