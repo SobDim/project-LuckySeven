@@ -43,7 +43,7 @@
 }
 
 .picture-hero {
-    max-width:100%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -136,10 +136,10 @@
         padding: 0;
     }
 
-
     .picture-hero{
         max-width: 650px;
     }
+
     .main-image {
         display: block;
         width: 100%;
