@@ -1,7 +1,6 @@
 /* Footer  styles */
 .footer {
   background-color: var(--wine);
-  padding-top: 72px;
   padding-bottom: 20px;
 }
 
@@ -9,12 +8,14 @@
   .footer {
     background-color: var(--wine);
     padding-bottom: 24px;
+    padding-top: 70px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer {
     padding-bottom: 25px;
+    padding-top: 70px;
   }
 }
 
@@ -34,7 +35,7 @@
 
 .logo-link {
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 @media screen and (min-width: 768px) {
@@ -135,6 +136,7 @@
   letter-spacing: -0.015em;
   font-style: normal;
   transition: color 0.4s linear;
+  max-width: 179px;
 }
 
 .agress-li:hover,
