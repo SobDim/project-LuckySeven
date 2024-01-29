@@ -1,9 +1,11 @@
 .reviews {
   background-color: var(--white);
 }
+
 .reviewes-container-title {
   margin-bottom: 40px;
 }
+
 @media screen and (min-width: 768px) {
   .reviewes-container-title {
     margin-bottom: 50px;
@@ -11,35 +13,49 @@
     width: 547px;
   }
 }
+
 .reviewes-title {
   color: #141414;
   margin-bottom: 20px;
 }
+
 @media screen and (min-width: 768px) {
   .reviewes-title {
     margin-bottom: 25px;
   }
 }
+
 .green-text {
   color: #576f35;
 }
+
 .reviewes-desc {
   color: #141414;
 }
+
+@media screen and (min-width: 768px) {
+  .reviewes-desc {
+    line-height: 1.4;
+  }
+}
+
 .reviewes-menu {
   display: flex;
   justify-content: center;
 }
+
 @media screen and (min-width: 768px) {
   .reviewes-menu {
     gap: 18px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .reviewes-menu {
     gap: 25px;
   }
 }
+
 .reviewes-item {
   width: 335px;
   background-color: var(--white);
@@ -51,29 +67,36 @@
   border-radius: 24px;
   border: 1px solid #7a31454d;
 }
+
 .reviewes-item:nth-last-child(-n + 2) {
   display: none;
 }
+
 @media screen and (min-width: 768px) {
   .reviewes-item:nth-child(-n + 2) {
     display: flex;
   }
+
   .reviewes-item {
     width: 343px;
     padding: 20px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .reviewes-item:nth-last-child(-n + 2) {
     display: flex;
   }
 }
+
 .reviewes-costumers {
   margin-bottom: 24px;
 }
+
 .reviewes-card-text {
   padding: 0 6px;
 }
+
 .reviewes-name {
   font-size: 16px;
   font-weight: 700;
@@ -81,6 +104,7 @@
   letter-spacing: -0.02em;
   text-align: center;
 }
+
 @media screen and (min-width: 768px) {
   .reviewes-name {
     font-size: 18px;
@@ -88,10 +112,12 @@
     letter-spacing: -0.02em;
   }
 }
+
 .reviewes-name {
   color: #141414;
   margin-bottom: 8px;
 }
+
 .reviewes-text-descripiton {
   color: #04030666;
 }
