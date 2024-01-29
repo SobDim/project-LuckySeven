@@ -43,7 +43,7 @@
 }
 
 .picture-hero {
-    width: 100%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -62,6 +62,10 @@
 
     .text-p-hero-section {
         max-width: 335px;
+    }
+
+    .picture-hero {
+        max-width: 375px;
     }
 }
 
@@ -93,6 +97,10 @@
         letter-spacing: -0.02em;
 
         max-width: 603px;
+    }
+
+    .picture-hero {
+        max-width: 768px;
     }
 }
 
