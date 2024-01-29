@@ -143,6 +143,7 @@ gap: 8px;
 .socials-text {
 color: rgba(251, 251, 251, 0.50);
 margin-bottom: 14px;
+letter-spacing: -0.015em;
 }
 
 .socials-item {
@@ -238,7 +239,11 @@ margin: 0 auto;
 }
 
 .socials-text {
+font-size: 18px;
+font-weight: 700;
+line-height: 1.11;
 margin-bottom: 15px;
+
 }
 
 .socials-list {
