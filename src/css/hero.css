@@ -18,7 +18,7 @@
 }
 
 .container-hero-main-text {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .first-text-in-page {
@@ -81,6 +81,7 @@
 
     .container-hero-main-text {
         width: 704px;
+        margin-bottom: 25px;
     }
 
     .first-text-in-page {
