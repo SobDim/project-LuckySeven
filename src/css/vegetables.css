@@ -37,12 +37,24 @@
 
 .accent-color-title {
     color: #FBFBFB4D;
-    letter-spacing: -0.04em;
 }
 
+@media screen and (min-width: 768px) {
+    .vegetables-title {
+        line-height: 1;
+        margin-bottom: 25px;
+    }
+
+}
 
 .vegetables-subtitle {
     color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-subtitle {
+        line-height: 1.4;
+    }
 }
 
 .vegetables-btn.btn-disctop {
@@ -78,6 +90,18 @@
     transition: box-shadow 600ms ease;
     overflow: hidden;
     cursor: grab;
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-item {
+        padding: 32px 26px 40px 27px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .vegetables-item {
+        padding: 32px 33px 45px 33px;
+    }
 }
 
 .vegetables-item:hover {
@@ -117,6 +141,21 @@
     font-weight: 700;
     padding-left: 5px;
     margin-bottom: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-desc-card {
+        padding: 1px;
+        font-size: 14px;
+        line-height: 1.29;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .vegetables-desc-card {
+        margin-bottom: 0;
+    }
 }
 
 .products {
