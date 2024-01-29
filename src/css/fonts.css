@@ -1,0 +1,16 @@
+  @font-face {
+      font-family: 'Studio Pro';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url('../fonts/studio-pro-bold.ttf') format('truetype');
+  }
+
+  @font-face {
+      font-family: 'Studio Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('../fonts/studio-pro-regular.ttf') format('truetype');
+
+  }

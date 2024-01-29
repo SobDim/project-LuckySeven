@@ -1,26 +1,49 @@
 <!--===========  MOBILE MENU===========-->
 <div class="menu-container js-menu-container" id="mobile-menu">
-  <button class="mob-close menu-toggle js-close-menu" type="button">
+  <button
+    class="hvr-pulse mob-close menu-toggle js-close-menu"
+    type="button"
+    aria-label="Close menu"
+  >
     <svg class="mobile-menu-close" width="32px" height="32px">
-      <use href="../img/symbol-defs.svg#icon-close"></use>
+      <use href="./img/symbol-defs.svg#icon-close"></use>
     </svg>
   </button>
+  <nav class="nav-mob">
+    <ul class="mobile-nav-list list">
+      <li class="mobile-nav-item">
+        <a
+          class="hvr-wobble-vertical mobile-nav-link link menu-toggle js-close-menu"
+          href="#how-it-works"
+          aria-label="how-it-works"
+          >How It Works</a
+        >
+      </li>
+      <li class="mobile-nav-item">
+        <a
+          class="hvr-wobble-vertical mobile-nav-link link menu-toggle js-close-menu"
+          href="#vegetables"
+          aria-label="Vegetables"
+          >Vegetables</a
+        >
+      </li>
+      <li class="mobile-nav-item">
+        <a
+          class="hvr-wobble-vertical mobile-nav-link link menu-toggle js-close-menu"
+          href="#reviewes"
+          aria-label="Reviewes"
+          >Reviews</a
+        >
+      </li>
+    </ul>
 
-  <ul class="mobile-nav-list list">
-    <li class="mobile-nav-item">
-      <a class="mobile-nav-link link menu-toggle js-close-menu" href="#how-it-works">How It Works</a>
-    </li>
-    <li class="mobile-nav-item">
-      <a class="mobile-nav-link link menu-toggle js-close-menu" href="#vegetables">Vegetables</a>
-    </li>
-    <li class="mobile-nav-item">
-      <a class="mobile-nav-link link menu-toggle js-close-menu" href="#reviewes">Reviews</a>
-    </li>
-    <li class="mobile-nav-item shop-now">
-      <a class="mobile-nav-link shop-mobile-link menu-toggle js-close-menu" href="#your-order">Shop now</a>
-    </li>
-  </ul>
-  
+    <a
+      class="btn-base btn-white hvr-buzz-out btmenu-toggle js-close-menu"
+      href="#your-order"
+      aria-label="Shop now"
+      >Shop now</a
+    >
+  </nav>
 </div>
 
 <!--========== / MOBILE MENU===========-->

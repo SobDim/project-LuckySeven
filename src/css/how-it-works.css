@@ -64,7 +64,7 @@
     }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
     .main-image-women {
         width: 640px;
         height: 640px;
