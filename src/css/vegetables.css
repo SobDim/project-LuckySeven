@@ -20,6 +20,7 @@
 @media screen and (min-width: 768px) {
     .vegetables-title-subtitle-container {
         max-width: 626px;
+        margin-bottom: 50px;
     }
 }
 
@@ -95,7 +96,7 @@
 
 @media screen and (min-width: 1280px) {
     .vegetables-item {
-        padding: 32px 33px 45px 33px;
+        padding: 30px 33px 45px 33px;
     }
 }
 
