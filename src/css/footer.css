@@ -1,6 +1,21 @@
 /* Footer  styles */
 .footer {
   background-color: var(--wine);
+  padding-top: 72px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    background-color: var(--wine);
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding-bottom: 25px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -17,12 +32,18 @@
   }
 }
 
-.footer-logo {
-  margin-bottom: 40px;
-}
-
 .logo-icon {
   margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-icon {
+    margin-bottom: 26px;
+  }
+}
+
+.footer-logo {
+  margin-bottom: 40px;
 }
 
 .footer-p {
@@ -162,7 +183,6 @@
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: -0.015em;
-  padding-bottom: 20px;
   transition: color 0.4s linear;
 }
 
@@ -178,8 +198,6 @@
     font-size: 18px;
     line-height: 1.12;
     letter-spacing: -0.015em;
-    padding-bottom: 24px;
-    padding-bottom: 24px;
   }
 }
 
@@ -191,7 +209,6 @@
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: -0.015em;
-  padding-bottom: 20px;
   margin-left: 31px;
 }
 
@@ -200,14 +217,12 @@
     font-size: 18px;
     line-height: 1.12;
     letter-spacing: -0.015em;
-    padding-bottom: 24px;
     margin-left: 182px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .policy-par {
-    padding-bottom: 25px;
     margin-left: 599px;
   }
 }
