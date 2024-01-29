@@ -12,8 +12,9 @@ margin-bottom: 20px;
 }
 
 .title-accent {
-    color: rgba(251, 251, 251, 0.30);
+color: rgba(251, 251, 251, 0.30);
 }
+
 .your-order-text {
  color: #FBFBFB;
  margin-bottom: 40px;
@@ -22,19 +23,20 @@ margin-bottom: 20px;
 .order-form {
 border-radius: 30px;
 background: #FBFBFB;
-
-height: 533px;
-padding: 40px 20px 0 20px;
 margin-bottom: 20px;
-
 }
+
+.form-area {
+    padding: 40px 20px 40px 20px;
+}
+
 .form-text {
+    display: block;
  color: #141414;
 font-size: 24px;
-font-style: normal;
 font-weight: 700;
-line-height: 26px; /* 108.333% */
-letter-spacing: -0.36px;
+line-height: 1.08;
+letter-spacing: -0.015em;
 text-transform: uppercase;
 margin-bottom: 40px;
 }
@@ -88,11 +90,14 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .textarea-form:hover {
 border: 1px solid var(--wine);
 }
+
 ::placeholder {
 color: var(--black);
+font-size: 14px;
+line-height: 1.29; 
+letter-spacing: -0.02em;
 }
   
-
 .send-button {
 min-width: 100%;
 min-height: 50px;
@@ -104,22 +109,22 @@ border: transparent;
 color: #FBFBFB;
 font-size: 14px;
 font-weight: 700;
-line-height: 1.29em;
-letter-spacing: -0.21px;
+line-height: 1.29;
+letter-spacing: -0.016em;
 text-transform: uppercase;
 cursor: pointer;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .send-button:hover, .send-button:focus {
-background-color: #3b5417;;
+background-color: #3b5417;
+border: 1px solid #FBFBFB ;
 }
 
 .socials-wrapper {
- border-radius: 30px;
+border-radius: 30px;
 background: var(--green);
 
-height: 465px;
 padding: 40px 20px;
 }
 
@@ -156,22 +161,30 @@ color: #FBFBFB;
 font-size: 24px;
 font-weight: 700;
 line-height: 1.08;
-letter-spacing: -0.15em;
+letter-spacing: -0.015em;
 }
 
 .soc-icon {
 fill: #FBFBFB;
 height: 26px;
-transition-duration: 400ms;
-transition-timing-function: linear;
+transition: fill 0.4s linear;
+
 }
 
 .soc-icon:hover,
 .soc-icon :focus {
-fill: rgba(166, 150, 150, 0.883);
+fill: var(--black);
+}
+
+.icon-inst {
+transform: translateY(2px);
 }
 
 @media screen and (min-width: 768px) {
+
+  .section-your-order {
+padding: 150px 0;
+  }  
 
 .title-your-order, .your-order-text {
 width: 640px;
@@ -190,19 +203,36 @@ margin-bottom: 50px;
 }
 
 .order-form {
-width: 628px;
-height: 534px;
-padding: 50px 100px;
+max-width:  628px;
 margin: 50px auto 25px auto;
 }
 
+.input-name, .input-email{
+height: 52px;
+}
+
+.form-area {
+padding: 50px 100px;
+}
+
 .textarea-form {
+height: 95px;
 margin-bottom: 25px;
+}
+
+::placeholder {
+font-size: 16px;
+line-height: 1.25;
+}
+
+.send-button {
+min-height: 52px;
+font-size: 18px;
+line-height: 1.11;
 }
    
 .socials-wrapper {
-width: 628px;
-height: 490px;
+max-width: 628px;
 padding: 50px;
 margin: 0 auto;
 }
@@ -213,7 +243,6 @@ margin-bottom: 15px;
 
 .socials-list {
 gap: 12px;
-
 }
 
 .socials-item {
@@ -237,7 +266,7 @@ margin-bottom: 50px;
 
 .title-your-order {
 font-size: 64px;
-line-height: 1;
+line-height: 1.0;
 width: 751px;
 }
 
@@ -246,17 +275,16 @@ width: 742px;
 }
 
 .order-form {
+max-width: 528px;
+}
+
+.form-area {
 padding: 50px;
 }
 
 .form-wrapper {
 display: flex;
 gap: 25px;
-}
-
-
-.socials-wrapper {
-height: 534px;
 }
 
 .order-img {
