@@ -183,7 +183,7 @@ transform: translateY(2px);
 @media screen and (min-width: 768px) {
 
   .section-your-order {
-padding: 150px 0;
+padding: 150px 0 80px 0;
   }  
 
 .title-your-order, .your-order-text {
