@@ -27,7 +27,7 @@
 
 .footer-p {
   width: 296px;
-  color: #fbfbfb;
+  color: var(--white);
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
@@ -72,11 +72,17 @@
 }
 
 .footer-list-item {
-  color: #fbfbfb;
+  color: var(--white);
   font-size: 28px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: -0.015em;
+  transition: color 0.4s linear;
+}
+
+.footer-list-item:hover,
+.footer-list-item:focus {
+  color: var(--black);
 }
 
 @media screen and (min-width: 768px) {
@@ -100,12 +106,18 @@
 }
 
 .agress-li {
-  color: #fbfbfb;
+  color: var(--white);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.28;
   letter-spacing: -0.015em;
   font-style: normal;
+  transition: color 0.4s linear;
+}
+
+.agress-li:hover,
+.agress-li:focus {
+  color: var(--black);
 }
 
 @media screen and (min-width: 768px) {
@@ -151,6 +163,12 @@
   line-height: 1.17;
   letter-spacing: -0.015em;
   padding-bottom: 20px;
+  transition: color 0.4s linear;
+}
+
+.policy-style:hover,
+.policy-style:focus {
+  color: var(--black);
 }
 
 @media screen and (min-width: 768px) {
