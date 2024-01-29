@@ -157,10 +157,13 @@
     border-radius: 15px;
     background: var(--white);
     display: flex;
-    margin-bottom: 20px;
     align-items: center;
     width: auto;
     gap: 24px;
+}
+
+.works-item:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 375px) {
