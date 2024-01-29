@@ -18,7 +18,7 @@
 }
 
 .container-hero-main-text {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .first-text-in-page {
@@ -54,6 +54,7 @@
 @media screen and (min-width:375px) {
     .container-hero-main-text {
         width: 335px;
+        margin-bottom: 25px;
     }
 
     .text-p-hero-section {
