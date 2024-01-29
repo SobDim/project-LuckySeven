@@ -1,52 +1,43 @@
 <!--===========  MOBILE MENU===========-->
 <div class="menu-container js-menu-container" id="mobile-menu">
-  <button class="mob-close menu-toggle js-close-menu" type="button">
+  <button class="hvr-pulse mob-close menu-toggle js-close-menu" type="button">
     <svg class="mobile-menu-close" width="32px" height="32px">
       <use href="../img/symbol-defs.svg#icon-close"></use>
     </svg>
   </button>
-  <nav class="">
+  <nav class="nav-mob">
     <ul class="mobile-nav-list list">
       <li class="mobile-nav-item">
         <a
-          class="mobile-nav-link link menu-toggle js-close-menu"
+          class="hvr-wobble-vertical mobile-nav-link link menu-toggle js-close-menu"
           href="#how-it-works"
           >How It Works</a
         >
       </li>
       <li class="mobile-nav-item">
         <a
-          class="mobile-nav-link link menu-toggle js-close-menu"
+          class="hvr-wobble-vertical mobile-nav-link link menu-toggle js-close-menu"
           href="#vegetables"
           >Vegetables</a
         >
       </li>
       <li class="mobile-nav-item">
         <a
-          class="mobile-nav-link link menu-toggle js-close-menu"
+          class="hvr-wobble-vertical mobile-nav-link link menu-toggle js-close-menu"
           href="#reviewes"
           >Reviews</a
         >
       </li>
       <li class="mobile-nav-item shop-now">
         <a
-          class="shop-mobile-link menu-toggle js-close-menu"
+          class="hvr-buzz-out shop-mobile-link menu-toggle js-close-menu"
           href="#your-order"
         >
-          <span class="ani-btn"></span>Shop now</a
+          Shop now</a
         >
       </li>
     </ul>
   </nav>
-  <script>
-    document.querySelector('.ani-btn').onmousemove = e => {
-      const x = e.pageX - e.target.offsetLeft;
-      const y = e.pageY - e.target.offsetTop;
-
-      e.target.style.setProperty('--x', `${x}px`);
-      e.target.style.setProperty('--y', `${y}px`);
-    };
-  </script>
 </div>
 
 <!--========== / MOBILE MENU===========-->
