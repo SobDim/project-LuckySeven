@@ -32,12 +32,13 @@
   }
 }
 
-.logo-icon {
+.logo-link {
+  display: block;
   margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  .logo-icon {
+  .logo-link {
     margin-bottom: 26px;
   }
 }
