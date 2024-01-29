@@ -1,11 +1,9 @@
 /* Advertisement styles */
-
  .container-advertisement {
-    max-width: 335px;
+    min-width: 320px;
     margin: 0 auto;
     padding: 0 20px;
 } 
-
 
 .section-advertisiment {
     background-color: var(--white);
@@ -16,18 +14,13 @@
     color: var(--black);
     font-size: 48px;
     font-weight: 700;
-    line-height: 1;
-    letter-spacing: -0.04em;
+    line-height: 1.04;
+    letter-spacing: -0.015em;
     text-transform: uppercase;
 }
 
 .second-part-discount-advertisiment {
     color: var(--white);
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 1;
-    letter-spacing: -0.04em;
-
     display: inline-flex;
     border-radius: 12px;
     background-color: var(--green);
@@ -35,16 +28,15 @@
     margin: 0 -10px;
   }
 
-
 @media screen and (min-width: 375px) {
 .container-advertisement {
-    max-width: 335px;
+    max-width: 375px;
     }
 }
 
 @media screen and (min-width: 768px) {
 .container-advertisement {
-    max-width: 704px;
+    max-width: 736px;
     padding: 0 16px;
 
     margin-top: 20px;
@@ -53,29 +45,25 @@
 
 .discount-advirtisement {
     font-size: 64px;
-    letter-spacing: -0.06em;
+    line-height: 1.09;
+    letter-spacing: -0.015em;
 }
 
 .second-part-discount-advertisiment {
-    font-size: 64px;
-    letter-spacing: -0.06em;
+    padding: 0px 16px;
+    margin-left:  -16px;
 }
-
 }
 
 @media screen and (min-width: 1280px) {
 .container-advertisement {
-    max-width: 1080px;
+    max-width: 1280px;
+    padding: 0 100px;
 }
 
 .discount-advirtisement {
     font-size: 76px;
-    letter-spacing: -0.07em;
-}
-
-.second-part-discount-advertisiment {
-    font-size: 76px;
-    letter-spacing: -0.07em;
+    line-height: 1.05;
 }
 }
 
