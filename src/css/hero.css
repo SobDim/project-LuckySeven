@@ -18,7 +18,7 @@
 }
 
 .container-hero-main-text {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .first-text-in-page {
@@ -26,18 +26,14 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 1;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.015em;
     text-transform: uppercase;
 }
 
 
 .text-p-hero-section {
     color: var(--white);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.28;
-    letter-spacing: -0.014em;
-
+   
     max-width: 375px;
     padding-bottom: 40px;
 }
@@ -89,13 +85,10 @@
 
     .first-text-in-page {
         font-size: 76px;
-        letter-spacing: -0.015em;
     }
 
     .text-p-hero-section {
-        font-size: 16px;
-        letter-spacing: -0.02em;
-
+        padding-bottom: 50px;
         max-width: 603px;
     }
 

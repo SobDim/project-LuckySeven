@@ -39,7 +39,7 @@
     max-width: 736px;
     padding: 0 16px;
 
-    margin-top: 20px;
+    margin-top: 28px;
     margin-bottom: 20px;
     }
 
@@ -50,8 +50,10 @@
 }
 
 .second-part-discount-advertisiment {
-    padding: 0px 16px;
+    padding: 8px 16px;
     margin-left:  -16px;
+    margin-top: -8px;
+    margin-bottom: -8px;
 }
 }
 
