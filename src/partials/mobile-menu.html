@@ -1,8 +1,12 @@
 <!--===========  MOBILE MENU===========-->
 <div class="menu-container js-menu-container" id="mobile-menu">
-  <button class="hvr-pulse mob-close menu-toggle js-close-menu" type="button">
+  <button
+    class="hvr-pulse mob-close menu-toggle js-close-menu"
+    type="button"
+    aria-label="Close menu"
+  >
     <svg class="mobile-menu-close" width="32px" height="32px">
-      <use href="../img/symbol-defs.svg#icon-close"></use>
+      <use href="./img/symbol-defs.svg#icon-close"></use>
     </svg>
   </button>
   <nav class="nav-mob">
@@ -11,6 +15,7 @@
         <a
           class="hvr-wobble-vertical mobile-nav-link link menu-toggle js-close-menu"
           href="#how-it-works"
+          aria-label="how-it-works"
           >How It Works</a
         >
       </li>
@@ -18,6 +23,7 @@
         <a
           class="hvr-wobble-vertical mobile-nav-link link menu-toggle js-close-menu"
           href="#vegetables"
+          aria-label="Vegetables"
           >Vegetables</a
         >
       </li>
@@ -25,22 +31,18 @@
         <a
           class="hvr-wobble-vertical mobile-nav-link link menu-toggle js-close-menu"
           href="#reviewes"
+          aria-label="Reviewes"
           >Reviews</a
         >
       </li>
-      <!-- <li class="mobile-nav-item shop-now">
-        <a
-          class="hvr-buzz-out shop-mobile-link menu-toggle js-close-menu"
-          href="#your-order"
-          >Shop now</a
-        >
-      </li> -->
     </ul>
-    <button
-      class="btn-base hvr-buzz-out shop-mobile-link menu-toggle js-close-menu"
+
+    <a
+      class="btn-base btn-white hvr-buzz-out btmenu-toggle js-close-menu"
+      href="#your-order"
+      aria-label="Shop now"
+      >Shop now</a
     >
-      <a class="" href="#your-order">Shop now</a>
-    </button>
   </nav>
 </div>
 

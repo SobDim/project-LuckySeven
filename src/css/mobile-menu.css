@@ -59,7 +59,6 @@
 
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
   justify-content: space-between;
 
 
@@ -70,7 +69,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: flex-start; */
 
 
 }
@@ -83,23 +81,10 @@
 }
 
 
-
-
-/* .mobile-nav-item:not(:last-child) {
-  margin-bottom: 8px;
-} */
-
 .mobile-nav-item {
   margin-bottom: 8px;
 }
 
-/* @media only screen and (min-width: 768px) {
-  .mobile-nav-item {
-    margin-top: 364px;
-  }
-} */
-
-/*  */
 
 .mobile-nav {
   display: block;
@@ -135,41 +120,68 @@
 
 }
 
+
+
 .btn-base {
+
+  letter-spacing: -0.015em;
+
   display: block;
   text-align: center;
   border-radius: 30px;
-
   width: auto;
-  min-width: 165px;
+  width: 160px;
   height: 50px;
   padding: 16px 40px;
-  border-radius: 30px;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   border: 1px solid rgba(251, 251, 251, .2);
 }
 
+@media only screen and (min-width: 768px) {
+  .btn-base {
+    width: 162px;
+    height: 52px;
+    padding: 16px 28px;
 
-
-
-
-.shop-mobile-link {
-
-  color: var(--wine);
-  background-color: var(--white);
-
-
-  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    font-size: 18px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+  }
 }
 
 
 
+.btn-white {
+  background-color: var(--white);
+  color: var(--wine);
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active {
+  background-color: var(--accent-color-btn);
+  color: var(--white);
+}
 
 
+.btn-wine {
+  background-color: var(--wine);
+  color: var(--white);
+}
 
+.btn-wine:hover,
+.btn-wine:focus,
+.btn-wine:active {
+  background-color: var(--accent-color-btn);
+
+  color: var(--white);
+
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 @media only screen and (min-width: 768px) {
   .shop-mobile-link {
@@ -178,12 +190,7 @@
 }
 
 
-.shop-mobile-link:hover,
-.shop-mobile-link:focus,
-.shop-mobile-link:active {
-  background-color: var(--accent-color-btn);
-  color: var(--white);
-}
+
 
 
 
@@ -402,8 +409,7 @@
   animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  background-color: var(--accent);
-  color: var(--white);
+
 
 }
 

@@ -4,7 +4,7 @@
 
     <div class="header-nav">
       <!-- логотип -->
-      <a class="hvr-grow logo-link" href="./index.html"
+      <a class="hvr-grow logo-link" aria-label="Main page" href="./index.html"
         ><svg class="logo-icon" width="168" height="16">
           <use href="./img/symbol-defs.svg#icon-logo"></use></svg
       ></a>
@@ -18,29 +18,34 @@
             >
           </li>
           <li class="list-item">
-            <a class="site-nav-link link hvr-wobble-vertical" href="#vegetables"
+            <a
+              class="site-nav-link link hvr-wobble-vertical"
+              aria-label="Read more about vegetables"
+              href="#vegetables"
               >Vegetables</a
             >
           </li>
           <li class="list-item">
-            <a class="site-nav-link link hvr-wobble-vertical" href="#reviewes"
+            <a
+              class="site-nav-link link hvr-wobble-vertical"
+              aria-label="Read more about reviewes"
+              href="#reviewes"
               >Reviews</a
             >
           </li>
-          <li class="list-item shop-now hvr-buzz-out">
-            <a class="site-nav-link shop-link" href="#your-order">Shop now</a>
-          </li>
         </ul>
-
-        <!-- <button class="hvr-buzz-out btn-base btn-wine">
-          <a class="" href="#your-order">Shop now</a>
-        </button> -->
+        <a
+          class="btn-base btn-wine hvr-buzz-out"
+          aria-label="Make your-order"
+          href="#your-order"
+          >Shop now</a
+        >
       </nav>
 
       <button
         class="mobile-menu-btn js-open-menu menu-toggle"
         type="button"
-        aria-expanded="false"
+        aria-label="Open menu"
         aria-controls="mobile-menu"
       >
         <svg class="mobile-menu-icon" width="32" height="32">
