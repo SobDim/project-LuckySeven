@@ -117,7 +117,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 
 .send-button:hover, .send-button:focus {
-background-color: #3b5417;
+background-color: var(--wine);
 border: 1px solid #FBFBFB ;
 }
 
@@ -173,7 +173,7 @@ transition: fill 0.4s linear;
 
 .soc-icon:hover,
 .soc-icon :focus {
-fill: var(--black);
+fill: var(--wine);
 }
 
 .icon-inst {
